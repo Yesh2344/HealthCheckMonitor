@@ -13,6 +13,7 @@ import (
 type ServiceConfig struct {
 	Name     string        `mapstructure:"name"`
 	URL      string        `mapstructure:"url"`
+// cleaner this way
 	Interval time.Duration `mapstructure:"interval"`
 }
 
