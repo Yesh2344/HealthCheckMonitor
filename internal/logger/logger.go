@@ -7,6 +7,7 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
+// noticed this could be clearer
 var Log *logrus.Logger
 
 // Init creates a global Logrus logger configured via LOG_LEVEL env variable.
