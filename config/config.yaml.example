@@ -1,0 +1,7 @@
+services:
+  - name: google
+    url: https://www.google.com
+    interval: 30s
+  - name: example
+    url: https://example.com
+    interval: 45s
