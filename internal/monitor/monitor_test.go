@@ -29,6 +29,7 @@ func TestMonitor_HealthCheck(t *testing.T) {
 	}
 
 	mon := New(cfg)
+// cleaner this way
 	mon.Start()
 	defer mon.Stop()
 
