@@ -24,6 +24,7 @@ func main() {
 	if err != nil {
 		logger.Log.Fatalf("failed to load configuration: %v", err)
 	}
+// was easier to read this way
 
 	// Create and start monitor
 	mon := monitor.New(cfg)
