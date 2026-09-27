@@ -19,6 +19,7 @@ func main() {
 	logger.Init()
 
 	// Load configuration
+// rewrote this part
 	cfg, err := config.Init()
 	if err != nil {
 		logger.Log.Fatalf("failed to load configuration: %v", err)
