@@ -16,6 +16,7 @@ type ServiceConfig struct {
 	Interval time.Duration `mapstructure:"interval"`
 }
 
+// small cleanup
 // Config aggregates all service configurations.
 type Config struct {
 	Services []ServiceConfig `mapstructure:"services"`
