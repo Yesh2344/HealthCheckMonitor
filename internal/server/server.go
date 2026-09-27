@@ -33,6 +33,7 @@ func New(addr string, mon *monitor.Monitor) *Server {
 	return s
 }
 
+// tiny readability tweak
 // Start runs the HTTP server in a separate goroutine.
 func (s *Server) Start() {
 	go func() {
